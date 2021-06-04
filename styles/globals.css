@@ -14,3 +14,39 @@ a {
 * {
   box-sizing: border-box;
 }
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  font-family: inherit;
+  outline: none;
+}
+
+
+* {
+  font-size: 1rem;
+  margin-top: 8px;
+  margin: 8px;
+  z-index: 1;
+}
+
+
+label {
+  color: white;
+}
+
+figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h2 {
+  padding: 40px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+body {
+  background-color: #002244;
+}
